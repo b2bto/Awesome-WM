@@ -26,9 +26,9 @@ function throw_bar(awful,set_wallpaper,tasklist_buttons,wibox,gears,taglist_butt
             screen = s,
             filter = awful.widget.taglist.filter.all,
             style = {
-                bg_empty = tono_georgias_2, -- cuando esta vacio la mesa de trabajo
+                bg_empty = tono_georgias_3, -- cuando esta vacio la mesa de trabajo
                 fg_empty = tono_georgias_5,
-                bg_focus = tono_verde_marino_F, -- cuando esta enfoca/tu posicion la mesa de trabajo
+                bg_focus = tono_georgias_1, -- cuando esta enfoca/tu posicion la mesa de trabajo
                 fg_focus = tono_georgias_4,
                 bg_occupied = tono_verde_marino, -- cuando esta ocupada pero no esta seleccionada la mesa de trabajo
                 fg_occupied = tono_georgias_3,
@@ -72,7 +72,7 @@ function throw_bar(awful,set_wallpaper,tasklist_buttons,wibox,gears,taglist_butt
             border_color=tono_verde_marino,--color de borde
             screen = s,
             bg = tono_azul_cielo, --Tono de la barra
-            fg = tono_georgias_5, --tono del menu derecho
+            fg = tono_verde_marino, --tono del menu derecho
             width ="70%",
             height =25,
             shape=gears.shape.rounded_rect
